@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        table, td{
+            border:solid 1px black;
+        }
+        .tab1 td{
+            padding: 30px 60px;
+            text-align: center;
+        }
+        
+
+        .corverde {background-color: green;}
+        .corazul {background-color: blue;}
+        .corpreto {background-color: black;}
+        .corvermelho {background-color: red;}
+        .coramarelo {background-color: yellow;}
+        .corletrabranca {color: white;}
+
+    </style>
+</head>
+<body>
+
+    <h1>Praticando 5 - Tabela grande com colspan e rowspan de fundo</h1>
+    <h3>Tabela grande com colspan e rowspan</h3>
+
+    <table class="tab1">
+        <tr class="corverde">
+            <td colspan="2">colspan</td>
+            <td>-</td>
+            <td rowspan="3"> Rowspan</td>
+        </tr>
+        <tr class="corvermelho">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr class="corazul">
+            <td>-</td>
+            <td colspan="2"> colspan</td>
+        </tr>
+        <tr class="coramarelo">
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>Legenda</caption>
+        <tr>
+            <td>Linha 1</td>
+            <td class="corverde">-------</td>
+            <td>Green</td>
+        </tr>
+        <tr>
+            <td>Linha 2</td>
+            <td class="corvermelho">-------</td>
+            <td>Green</td>
+        </tr>
+        <tr>
+            <td>Linha 3</td>
+            <td class="corazul">-------</td>
+            <td>Green</td>
+        </tr>
+        <tr>
+            <td>Linha 4</td>
+            <td class="coramarelo">-------</td>
+            <td>Green</td>
+        </tr>
+    </table>
+
+
+    <p>
+        <a href="index.html"> Menu </a>
+    </p>
+
+</body>
+</html>
